@@ -1,0 +1,322 @@
+
+#section1{
+    background-image: url( img1.jpg);
+    
+
+    background-color: blue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section1:hover{
+    /*  */
+
+    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg); 
+ 
+    background-color: rgb(47, 255, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main
+{
+    /* position: absolute; */
+    top: 100px;
+    left: 50px;
+   
+}
+.image1
+{
+   border-radius: 50%;
+   overflow: hidden;
+   background-color: yellow;
+   display: inline-block;
+   vertical-align: middle;
+   border-color: chartreuse;
+   border-width: 2.5px;
+}
+
+.hname
+{
+  font-size: 55px;
+  font-family: fantasy;
+  color: red;
+
+}
+.hname:hover
+{
+  font-size: 55px;
+  font-family: fantasy;
+  color: green;
+
+}
+.image1:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:700px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.table1
+{
+   padding-bottom: 100px; 
+}
+.heading1
+{   
+    text-align: center;
+    text-decoration: double;
+    text-shadow: brown;
+    text-emphasis-color: red;
+    font-size: 58px;
+    color: #fcf822;
+}
+.aboutme1
+{
+    color: rgb(202, 239, 235);
+    font-size: 48px;
+    font-style:normal;
+    
+}
+.quote:hover
+{
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(209, 0, 0);
+}
+#section2
+{   background-image: url(img3.jpg);
+    background-color: darkseagreen;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2:hover{
+    background-image: url(img4.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3
+{
+    background-image: url(glare.jpg);
+    background-color: darkseagreen;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3:hover
+{
+    background-image: url(sky.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tablee
+{      
+       position: relative;
+        padding-bottom: 10px;
+        table-layout: inherit;
+        left: 30px;
+        font-size: 35px;
+        background-color: #70e0da;
+        
+}
+.tablee:hover{
+    position: relative;
+    padding-bottom: 10px;
+    table-layout: inherit;
+    left: 30px;
+    font-size: 35px;
+    background-color: #8cf120;
+}
+#Section4
+{   
+    background-image: url( back.jpg);
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Section4:hover{
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arrow_button
+{
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+#Upper
+{
+    background-color: deepskyblue;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}
+.button{
+    position: relative;
+    left: 800px;
+    border: none;
+  color: rgb(179, 50, 50);
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30%;
+  background-color: aquamarine;
+  align-items:right;
+  
+}
+.acheivements
+{
+    color: #29fff1;
+    font-family: cursive;
+    font-size: 30px;
+}
+#Section5
+{
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: beige;
+  font-size: 40px;
+}
+.button2
+{
+    font-size: 38px;
+    color: rgb(125, 10, 30);
+    background-color: rgb(121, 227, 233);
+    height: 60spx;
+}
+#section6
+{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: beige;
+    font-size: 40px;
+}
+#section6:hover
+{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: rgb(244, 244, 13);
+    font-size: 40px;
+}
+.button3
+{
+    padding: 5PX;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#Section7
+{
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: beige;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+body {
+    background-color: #d8d8d8;
+}
+h1 {
+  text-align: center;
+}
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+/* .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+} */
+/* .facebook-custom,
+.twitter-custom {
+  background-color: green;
+  color: pink;
+} */
+
+.secTion1 {
+   background-color: lime;
+   font-size: 18px;
+}
+
+.secTion2 {
+    position: absolute;
+    width: fit-content;
+    left: 600px;
+   padding: 1em; 
+  background-color: rgb(250, 237, 54);
+  
+} 
+#Section8
+{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: beige;
+    font-size: 25px;
+}
+#Section8:hover
+{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: rgb(244, 244, 13);
+    font-size: 29px;
+} 

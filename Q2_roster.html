@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>2021101075 Time-Table</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        body:hover
+        {
+            background-color: chartreuse;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1 style="text-align: center;font-style: italic;font-size: 50px;color: rgb(19, 25, 138);">My Table Table</h1>
+    <table cellspacing="20" border="10 10 10" color="green">
+        <tr>
+            <th>DAYS</th>
+            <th>8.30-10AM</th>
+            <th>10AM-11.30AM</th>
+            <th>11.30PM</th>
+            <th>1-2PM</th>
+            <th>2-3PM</th>
+            <th>3-4PM</th>
+        </tr>
+        <tr>
+            <td><b>MONDAY</b></td>
+            <td id="ENTRY4B"></td>
+            <td id="ENTRY5B"></td>
+            <td id="ENTRY6B"></td>
+            <td id="ENTRY1B"></td>
+            <td id="ENTRY2B"></td>
+            <td id="ENTRY3B"></td>
+        </tr>
+        <tr>
+            <td><b>TUESDAY</b></td>
+            <td id="ENTRY16B"></td>
+            <td id="ENTRY17B"></td>
+            <td id="ENTRY18B"></td>
+            <td id="ENTRY13B"></td>
+            <td id="ENTRY14B"></td>
+            <td id="ENTRY15B"></td>
+        </tr>
+        <tr>
+            <td><b>WEDNESDAY</b></td>
+            <td id="ENTRY10B"></td>
+            <td id="ENTRY11B"></td>
+            <td id="ENTRY12B"></td>
+            <td id="ENTRY7B"></td>
+            <td id="ENTRY8B"></td>
+            <td id="ENTRY9B"></td>
+        </tr>
+        <tr>
+            <td><b>THURSDAY</b></td>
+            <td id="ENTRY4A"></td>
+            <td id="ENTRY5A"></td>
+            <td id="ENTRY6A"></td>
+            <td id="ENTRY1A"></td>
+            <td id="ENTRY2A"></td>
+            <td id="ENTRY3A"></td>
+        </tr>
+        <tr>
+            <td><b>FRIDAY</b></td>
+            <td id="ENTRY10A"></td>
+            <td id="ENTRY11A"></td>
+            <td id="ENTRY12A"></td>
+            <td id="ENTRY7A"></td>
+            <td id="ENTRY8A"></td>
+            <td id="ENTRY9A"></td>
+        </tr>
+        <tr>
+            <td><b>SATURDAY</b></td>
+            <td id="ENTRY16A"></td>
+            <td id="ENTRY17A"></td>
+            <td id="ENTRY18A"></td>
+
+            <td id="ENTRY13A"></td>
+            <td id="ENTRY14A"></td>
+            <td id="ENTRY15A"></td>
+        </tr>
+        
+    </table>
+    <!-- <script src="2.js"></script> -->
+    <script>
+        var entries=prompt("Enter data with space","").split(" ");
+for(i=1;i<=18;i++)
+{
+    document.getElementById("ENTRY"+i+"B").innerHTML=entries[i-1];
+    document.getElementById("ENTRY"+i+"A").innerHTML=entries[i-1];
+}
+    </script>
+</body>
+</html>
